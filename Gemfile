@@ -10,7 +10,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 8.0.0"
+  gem "rails", "~> 8.0.2"
 
   gem "sprockets-rails"
   gem "ransack", ">= 4.2.0"
@@ -32,11 +32,11 @@ group :test do
   gem "database_cleaner-active_record"
   gem "launchy"
   gem "parallel_tests"
-  gem "rspec-rails"
+  gem "rspec-rails", ">= 8.0.0"
   gem "sqlite3", platform: :mri
 
   # Translations
-  gem "i18n-tasks"
+  gem "i18n-tasks", ">= 1.0.15"
   gem "i18n-spec"
   gem "rails-i18n" # Provides default i18n for many languages
 end
