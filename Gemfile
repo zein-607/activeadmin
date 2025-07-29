@@ -17,7 +17,7 @@ group :development, :test do
   gem "formtastic", ">= 5.0.0"
 
   gem "cssbundling-rails"
-  gem "importmap-rails"
+  gem "importmap-rails", ">= 2.2.0"
 end
 
 group :test do
