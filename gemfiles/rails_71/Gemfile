@@ -10,7 +10,7 @@ group :development, :test do
   gem "draper"
   gem "devise"
 
-  gem "rails", "~> 7.1.0"
+  gem "rails", "~> 7.1.5", ">= 7.1.5.2"
 
   gem "sprockets-rails"
   gem "ransack", ">= 4.1.0"
@@ -32,7 +32,7 @@ group :test do
   gem "simplecov-cobertura", require: false
   gem "cucumber-rails", require: false
   gem "cucumber"
-  gem "database_cleaner-active_record"
+  gem "database_cleaner-active_record", ">= 2.2.1"
   gem "launchy"
   gem "parallel_tests", "~> 4.9" # FIXME: relax this dependency when Ruby 3.1 support will be dropped
   gem "rspec-rails"
